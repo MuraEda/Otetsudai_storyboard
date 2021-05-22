@@ -4,7 +4,7 @@
 //
 //  Created by Murase Yusuke on 2021/05/01.
 //
-
+//開けたよ
 import UIKit
 
 class ViewController: UIViewController{
