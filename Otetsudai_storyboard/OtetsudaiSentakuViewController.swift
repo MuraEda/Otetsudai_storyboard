@@ -10,6 +10,7 @@ import UIKit
 class OtetsudaiSentakuViewController: UIViewController,UITableViewDelegate,UITableViewDataSource {
 
     let OtetsudaiArray = ["ごみ出し","洗濯","掃除","炊事"]
+    let pointNumArray = Array(0..<6)
 
     @IBOutlet weak var OtetsudaiSentakuTable: UITableView!
     
