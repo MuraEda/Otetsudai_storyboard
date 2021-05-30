@@ -15,6 +15,7 @@
 		4E6C8405263CFB22005BFCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C8403263CFB22005BFCDF /* LaunchScreen.storyboard */; };
 		4E6C840E263D080E005BFCDF /* OtetsudaiSentakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C840D263D080D005BFCDF /* OtetsudaiSentakuViewController.swift */; };
 		4ED3870A263D451500571419 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED38709263D451500571419 /* CheckBox.swift */; };
+		9D24EA67266342B6008A3393 /* inputOtetsudaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24EA66266342B6008A3393 /* inputOtetsudaiTableViewCell.swift */; };
 		C64A4CA78F73DE1841DE1D99 /* Pods_Otetsudai_storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B074DDE14D036A7FDD27332 /* Pods_Otetsudai_storyboard.framework */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		4E6C840D263D080D005BFCDF /* OtetsudaiSentakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtetsudaiSentakuViewController.swift; sourceTree = "<group>"; };
 		4ED38709263D451500571419 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 		7661C71D37E155C4E95354FB /* Pods-Otetsudai_storyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otetsudai_storyboard.debug.xcconfig"; path = "Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		9D24EA66266342B6008A3393 /* inputOtetsudaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputOtetsudaiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				4E6C8401263CFB22005BFCDF /* Assets.xcassets */,
 				4E6C8403263CFB22005BFCDF /* LaunchScreen.storyboard */,
 				4E6C8406263CFB22005BFCDF /* Info.plist */,
+				9D24EA66266342B6008A3393 /* inputOtetsudaiTableViewCell.swift */,
 			);
 			path = Otetsudai_storyboard;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				4E6C83FB263CFB1E005BFCDF /* SceneDelegate.swift in Sources */,
 				4E6C840E263D080E005BFCDF /* OtetsudaiSentakuViewController.swift in Sources */,
 				4ED3870A263D451500571419 /* CheckBox.swift in Sources */,
+				9D24EA67266342B6008A3393 /* inputOtetsudaiTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

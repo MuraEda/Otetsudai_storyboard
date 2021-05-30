@@ -50,19 +50,11 @@ class OtetsudaiSentakuViewController: UIViewController,UITableViewDelegate,UITab
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = OtetsudaiSentakuTable.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell") as! inputOtetsudaiTableViewCell
+        
+//        let cell = OtetsudaiSentakuTable.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         cell.textLabel!.text = OtetsudaiArray[indexPath.row]
         return cell
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
