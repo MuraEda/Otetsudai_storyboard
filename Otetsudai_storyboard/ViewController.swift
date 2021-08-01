@@ -24,10 +24,10 @@ class ViewController: UIViewController{
     }
 
 
-    @IBAction func otetsudai_push(_ sender: Any) {
-        let OtetsudaiSentakuVC = storyboard?.instantiateViewController(withIdentifier: "OtetsudaiSentaku")  as! OtetsudaiSentakuViewController
-                    navigationController?.pushViewController(OtetsudaiSentakuVC, animated: true)
-    }
+//    @IBAction func otetsudai_push(_ sender: Any) {
+//        let OtetsudaiSentakuVC = storyboard?.instantiateViewController(withIdentifier: "OtetsudaiSentaku")  as! OtetsudaiSentakuViewController
+//                    navigationController?.pushViewController(OtetsudaiSentakuVC, animated: true)
+//    }
     
     //Table関連
 //    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

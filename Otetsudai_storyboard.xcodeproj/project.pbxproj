@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,12 +17,9 @@
 		4E890F7B26B6379D006B65B4 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E890F7A26B6379D006B65B4 /* CalenderViewController.swift */; };
 		4ED3870A263D451500571419 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED38709263D451500571419 /* CheckBox.swift */; };
 		9D24EA67266342B6008A3393 /* inputOtetsudaiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D24EA66266342B6008A3393 /* inputOtetsudaiTableViewCell.swift */; };
-		C64A4CA78F73DE1841DE1D99 /* Pods_Otetsudai_storyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B074DDE14D036A7FDD27332 /* Pods_Otetsudai_storyboard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2B330642F1572318E47E0228 /* Pods-Otetsudai_storyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otetsudai_storyboard.release.xcconfig"; path = "Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard.release.xcconfig"; sourceTree = "<group>"; };
-		3B074DDE14D036A7FDD27332 /* Pods_Otetsudai_storyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otetsudai_storyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6C83F5263CFB1E005BFCDF /* Otetsudai_storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Otetsudai_storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E6C83F8263CFB1E005BFCDF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E6C83FA263CFB1E005BFCDF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,7 +31,6 @@
 		4E6C840D263D080D005BFCDF /* OtetsudaiSentakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtetsudaiSentakuViewController.swift; sourceTree = "<group>"; };
 		4E890F7A26B6379D006B65B4 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
 		4ED38709263D451500571419 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
-		7661C71D37E155C4E95354FB /* Pods-Otetsudai_storyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otetsudai_storyboard.debug.xcconfig"; path = "Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard.debug.xcconfig"; sourceTree = "<group>"; };
 		9D24EA66266342B6008A3393 /* inputOtetsudaiTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inputOtetsudaiTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C64A4CA78F73DE1841DE1D99 /* Pods_Otetsudai_storyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +51,6 @@
 				4ED38709263D451500571419 /* CheckBox.swift */,
 				4E6C83F7263CFB1E005BFCDF /* Otetsudai_storyboard */,
 				4E6C83F6263CFB1E005BFCDF /* Products */,
-				BA944B732D1F43AD6CAA07FA /* Pods */,
 				7B6183375E1BAA51474BA7C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -89,18 +83,8 @@
 		7B6183375E1BAA51474BA7C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3B074DDE14D036A7FDD27332 /* Pods_Otetsudai_storyboard.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BA944B732D1F43AD6CAA07FA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7661C71D37E155C4E95354FB /* Pods-Otetsudai_storyboard.debug.xcconfig */,
-				2B330642F1572318E47E0228 /* Pods-Otetsudai_storyboard.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,11 +94,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E6C8409263CFB22005BFCDF /* Build configuration list for PBXNativeTarget "Otetsudai_storyboard" */;
 			buildPhases = (
-				A01F911F01A56F3F6C492B81 /* [CP] Check Pods Manifest.lock */,
 				4E6C83F1263CFB1E005BFCDF /* Sources */,
 				4E6C83F2263CFB1E005BFCDF /* Frameworks */,
 				4E6C83F3263CFB1E005BFCDF /* Resources */,
-				8D80F08F086627BCD3D88D68 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,48 +151,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		8D80F08F086627BCD3D88D68 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otetsudai_storyboard/Pods-Otetsudai_storyboard-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A01F911F01A56F3F6C492B81 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Otetsudai_storyboard-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4E6C83F1263CFB1E005BFCDF /* Sources */ = {
@@ -367,7 +307,6 @@
 		};
 		4E6C840A263CFB22005BFCDF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7661C71D37E155C4E95354FB /* Pods-Otetsudai_storyboard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -387,7 +326,6 @@
 		};
 		4E6C840B263CFB22005BFCDF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B330642F1572318E47E0228 /* Pods-Otetsudai_storyboard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
