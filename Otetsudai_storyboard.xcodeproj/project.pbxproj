@@ -14,6 +14,7 @@
 		4E6C8402263CFB22005BFCDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C8401263CFB22005BFCDF /* Assets.xcassets */; };
 		4E6C8405263CFB22005BFCDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E6C8403263CFB22005BFCDF /* LaunchScreen.storyboard */; };
 		4E6C840E263D080E005BFCDF /* OtetsudaiSentakuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E6C840D263D080D005BFCDF /* OtetsudaiSentakuViewController.swift */; };
+		4E890F7B26B6379D006B65B4 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E890F7A26B6379D006B65B4 /* CalenderViewController.swift */; };
 		4ED3870A263D451500571419 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED38709263D451500571419 /* CheckBox.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		4E6C8404263CFB22005BFCDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4E6C8406263CFB22005BFCDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E6C840D263D080D005BFCDF /* OtetsudaiSentakuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtetsudaiSentakuViewController.swift; sourceTree = "<group>"; };
+		4E890F7A26B6379D006B65B4 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalenderViewController.swift; path = Otetsudai_storyboard/CalenderViewController.swift; sourceTree = "<group>"; };
 		4ED38709263D451500571419 /* CheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +46,7 @@
 		4E6C83EC263CFB1E005BFCDF = {
 			isa = PBXGroup;
 			children = (
+				4E890F7A26B6379D006B65B4 /* CalenderViewController.swift */,
 				4ED38709263D451500571419 /* CheckBox.swift */,
 				4E6C83F7263CFB1E005BFCDF /* Otetsudai_storyboard */,
 				4E6C83F6263CFB1E005BFCDF /* Products */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E890F7B26B6379D006B65B4 /* CalenderViewController.swift in Sources */,
 				4E6C83FD263CFB1E005BFCDF /* ViewController.swift in Sources */,
 				4E6C83F9263CFB1E005BFCDF /* AppDelegate.swift in Sources */,
 				4E6C83FB263CFB1E005BFCDF /* SceneDelegate.swift in Sources */,
